@@ -31,53 +31,45 @@ color:gray;
     display:table;
 }
 
-/* ------------ another experiment------------ */
+/* ------------ people-about-us------------ */
 
- .table-col{ 
-    width:100%;
-    background:blueviolet;
-    padding-top:50px;
-    padding-bottom: 50px;
-}
-
-.table{
-    width:90%;
-    margin:auto;
-}
-.table img{
-    width:100px;
-}
-.img{
-    float:left;
-    margin-right: 25px;
-}
-.text{
-padding-top:150px;
+ #main{
+     width:100%;
+     text-align: center;
+     padding:40px;
+     background:rgba(240,240,240);
+ }
+ .item img{
+width:150px;
+/* max-width: 100%; */
+/* max-height: 100%; */
+height:100px;
+padding:0px 30px 0px 10px;
 float:left;
-}
-#row1::after{
-    clear:both;
-    content:"";
-    display:table;
-}
-#row2::after{
-    clear:both;
-    content:"";
-    display:table;
-}
+ }
+ .item{
+     text-align: left;
+     padding:40px;
+ }
+
+ #col-wrapper{
+     display:grid;
+     grid-template-columns: auto auto;
+     padding:30px;
+ }
+
+ div.b{
+     border-bottom: 1px solid black;
+ }
+
+ div.l{
+     border-left: 1px solid black;
+ }
+ .item p{
+     padding-top:18px;
+ }
 
 
-#row1{
-    width:50%;
-    padding:10px 50px 10px 50px;
-}
-
-#row2{
-    width:50%;
-    padding:10px 50px 10px 50px;
-} 
-
-
-/* -------- End--------- */
+/* -------- people-about-us--------- */
 
 
